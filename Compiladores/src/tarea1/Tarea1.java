@@ -100,6 +100,9 @@ public class Tarea1 {
                     case 3:
                         DEFVARPALRES();
                         break;
+                    case 4:
+                        ASIGVARNOEXISTE();
+                        break;
                     default:
                         NORECON();
                         break;
@@ -159,6 +162,13 @@ public class Tarea1 {
         digitaLinea();
     }
 
+     public static void ASIGVARNOEXISTE(){
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        System.out.println("\nNo se puede asignar como valor una variable que no existe!");
+        digitaLinea();
+    }   
+    
+    
     public static void DEFVAREXISTE(){
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         System.out.println("\nVariable ya existe!");
